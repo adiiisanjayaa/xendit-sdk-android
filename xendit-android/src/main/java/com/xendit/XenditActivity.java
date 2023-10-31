@@ -54,7 +54,8 @@ public class XenditActivity extends Activity {
         }
 
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.setWebChromeClient(new WebChromeClient());
+        // webView.getSettings().set(true);
+        // webView.setWebChromeClient(new WebChromeClient());
         webView.setWebViewClient(new WebViewClient() {
 
             @Override
